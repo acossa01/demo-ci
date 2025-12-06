@@ -2,12 +2,12 @@ package br.ufmg.dcc;
 
 public class Calculadora {
 
-  public int soma(int x, int y) {
-    return x + y;
-  }
+    // BUG PROPOSITAL no método soma (quebra o teste)
+    public int soma(int x, int y) {
+        return x + y + 1; // bug proposital
+    }
 
-  public int subtrai(int x, int y) {
-    return x - y;
-  }
-
+    public int subtrai(int x, int y) {
+        return x - y;
+    }
 }
